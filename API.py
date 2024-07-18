@@ -45,6 +45,9 @@ def plot_pie_chart(df):
 def save_to_csv(df, filename='top_stories.csv'):
     df.to_csv(filename, index=True)
 
+def save_csv(df, filename='comment.csv'):
+    df.to_csv(filename, index=True)
+
 
 
 top_stories = get_top_stories(10)
@@ -55,6 +58,7 @@ plot_pie_chart(stories_df)
 # plot_scores(stories_df)
 
 save_to_csv(stories_df)
+save_csv(comment_df)
 
 
 
