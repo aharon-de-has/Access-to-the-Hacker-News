@@ -1,11 +1,11 @@
-,id,title,by,score,descendants,time,url,188.8
-0,40998158,"Devzat – Chat over SSH, with some nice quality-of-life features",humanperhaps,171,48.0,1721325532,https://github.com/quackduck/devzat,188.8
-1,40968922,Type in Morse code by repeatedly slamming your laptop shut,OuterVale,238,50.0,1721058458,https://github.com/veggiedefender/open-and-shut,188.8
-2,40995515,The Objects of Our Life (1983),Brajeshwar,201,94.0,1721310200,https://stevejobsarchive.com/exhibits/objects-of-our-life,188.8
-3,40995982,Hash-based bisect debugging in compilers and runtimes,rsc,128,10.0,1721313418,https://research.swtch.com/bisect,188.8
-4,40951187,Writing an MP4 Muxer for Fun and Profit,skrrtww,28,5.0,1720836274,https://obsproject.com/blog/obs-studio-hybrid-mp4,188.8
-5,40997850,Transcribro: On-device Accurate Speech-to-text,thebiblelover7,46,18.0,1721323515,https://github.com/soupslurpr/Transcribro,188.8
-6,40999911,NASA cancels $450M mission to drill for ice on the Moon,gnabgib,36,31.0,1721337879,https://www.nature.com/articles/d41586-024-02361-1,188.8
-7,40997087,Polychromatic Pixels,bluehat974,134,90.0,1721319101,https://compoundsemiconductor.net/article/119170/Polychromatic_pixels,188.8
-8,40992982,My daughter (7 years old) used HTML to make a website,fintler,905,372.0,1721283891,https://naya.lol,188.8
-9,40999700,Mutable.ai (YC W22) is hiring to build an AI codebase expert,oshams,1,,1721336452,,188.8
+,id,title,by,score,descendants,time,url,182.0
+0,41023547,rr – record and replay debugger for C/C++,levzettelin,50,7,2024-07-21 08:54:13,https://rr-project.org/,182.0
+1,41022653,"What is the significance of the character ""j"" at the end of a Roman Numeral?",kamaraju,140,39,2024-07-21 05:31:59,https://genealogy.stackexchange.com/questions/3748/what-is-the-significance-of-the-character-j-at-the-end-of-a-roman-numeral,182.0
+2,41021366,Initial details about why CrowdStrike's CSAgent.sys crashed,pilfered,330,353,2024-07-21 00:17:34,https://twitter.com/patrickwardle/status/1814343502886477857,182.0
+3,41023138,Syscall.sh,notepad0x90,44,9,2024-07-21 07:13:39,https://syscall.sh/,182.0
+4,41023319,Zettlr: One-Stop Publication Workbench,hgyjnbdet,40,4,2024-07-21 07:53:25,https://www.zettlr.com,182.0
+5,41019604,Minuteman missile communications,sklargh,259,37,2024-07-20 20:33:06,https://computer.rip/2024-07-20-minuteman-missile-communications.html,182.0
+6,41018135,A Linux kernel syscall implementation tracker,halb,303,52,2024-07-20 17:34:52,https://syscalls.mebeim.net/?table=x86/64/x64/latest,182.0
+7,41016441,10% of Cubans left Cuba between 2022 and 2023,apsec112,379,745,2024-07-20 13:43:24,https://www.miamiherald.com/news/nation-world/world/americas/cuba/article290249799.html,182.0
+8,40975320,Large models of what? Mistaking engineering achievements for linguistic agency,Anon84,144,76,2024-07-16 10:54:31,https://arxiv.org/abs/2407.08790,182.0
+9,41019777,Google Distributed Cloud air-gapped appliance,radeeyate,131,77,2024-07-20 20:52:23,https://cloud.google.com/blog/topics/hybrid-cloud/google-distributed-cloud-air-gapped-appliance-is-ga,182.0
