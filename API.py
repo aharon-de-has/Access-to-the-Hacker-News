@@ -6,16 +6,19 @@ url_main = 'https://hacker-news.firebaseio.com/v0'
 
 def fech_top_stories(num):
     top_stories_url = f'{url_main}/topstories.json'
-    response = requests.get(top_stories_url)
-    story_ids = response.json()[:num]
-    stories = []
-    for story_id in story_ids:
-        story_url = f'{url_main}/item/{story_id}.json'
-        story_response = requests.get(story_url)
-        story_data = story_response.json()
-        stories.append(story_data)
-    return stories
-
+    try:
+        response = requests.get(top_stories_url)
+        story_ids = response.json()[:num]
+        stories = []
+        for story_id in story_ids:
+            story_url = f'{url_main}/item/{story_id}.json'
+            story_response = requests.get(story_url)
+            story_data = story_response.json()
+            stories.append(story_data)
+        return stories
+    except:
+        return
+    
 def analyze_stories(stories):
     df = pd.DataFrame(stories)
     df_stories = df[['id', 'title', 'by', 'score','descendants', 'time', 'url']]
@@ -45,6 +48,7 @@ def fech_data_comment(ids_comments):
     return comment_df
 
 def plot_pie_chart(df):
+    # plt.annotate("The atribution of scores", xy=(0.5, 1), ha='center', va='center', fontsize=16)
     plt.figure(figsize=(20, 7))
     plt.subplots_adjust(left=0.3, right=1.1)
     wedges, texts, aototext = plt.pie(df['score'], autopct='%1.1f%%', startangle=140, textprops=dict(color='w'))
